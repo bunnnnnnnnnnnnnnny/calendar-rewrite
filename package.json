@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "api",
+    "front"
+  ],
+  "scripts": {
+    "api:dev": "yarn workspace api run dev",
+    "front:dev": "yarn workspace front run dev",
+    "format": "prettier --write ."
+  },
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "postgres": "^3.4.5",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3"
+  }
+}

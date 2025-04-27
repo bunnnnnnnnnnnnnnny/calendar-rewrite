@@ -1,0 +1,9 @@
+node_modules
+
+api/dist
+api/.data
+api/.nitro
+api/.cache
+api/.output
+
+front/dist
